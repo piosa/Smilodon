@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F753BF717857D6100055C8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F753BF617857D6100055C8D /* UIKit.framework */; };
+		3F753BF917857D6100055C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F753BF817857D6100055C8D /* Foundation.framework */; };
+		3F753BFB17857D6100055C8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F753BFA17857D6100055C8D /* CoreGraphics.framework */; };
+		3F753C0117857D6100055C8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F753BFF17857D6100055C8D /* InfoPlist.strings */; };
+		3F753C0317857D6100055C8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F753C0217857D6100055C8D /* main.m */; };
+		3F753C0717857D6100055C8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F753C0617857D6100055C8D /* AppDelegate.m */; };
+		3F753C0917857D6100055C8D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F753C0817857D6100055C8D /* Default.png */; };
+		3F753C0B17857D6100055C8D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F753C0A17857D6100055C8D /* Default@2x.png */; };
+		3F753C0D17857D6100055C8D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F753C0C17857D6100055C8D /* Default-568h@2x.png */; };
+		3F753C1017857D6200055C8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F753C0F17857D6200055C8D /* ViewController.m */; };
+		3F753C1317857D6200055C8D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F753C1117857D6200055C8D /* ViewController.xib */; };
+		3F753C1B17857D6200055C8D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F753C1A17857D6200055C8D /* SenTestingKit.framework */; };
+		3F753C1C17857D6200055C8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F753BF617857D6100055C8D /* UIKit.framework */; };
+		3F753C1D17857D6200055C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F753BF817857D6100055C8D /* Foundation.framework */; };
+		3F753C2517857D6200055C8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F753C2317857D6200055C8D /* InfoPlist.strings */; };
+		3F753C2817857D6200055C8D /* SmilodonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F753C2717857D6200055C8D /* SmilodonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F753C1E17857D6200055C8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F753BEB17857D6100055C8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F753BF217857D6100055C8D;
+			remoteInfo = Smilodon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F753BF317857D6100055C8D /* Smilodon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smilodon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F753BF617857D6100055C8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F753BF817857D6100055C8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F753BFA17857D6100055C8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F753BFE17857D6100055C8D /* Smilodon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Smilodon-Info.plist"; sourceTree = "<group>"; };
+		3F753C0017857D6100055C8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F753C0217857D6100055C8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F753C0417857D6100055C8D /* Smilodon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smilodon-Prefix.pch"; sourceTree = "<group>"; };
+		3F753C0517857D6100055C8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F753C0617857D6100055C8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F753C0817857D6100055C8D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3F753C0A17857D6100055C8D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3F753C0C17857D6100055C8D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3F753C0E17857D6100055C8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F753C0F17857D6200055C8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F753C1217857D6200055C8D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3F753C1917857D6200055C8D /* SmilodonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmilodonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F753C1A17857D6200055C8D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3F753C2217857D6200055C8D /* SmilodonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmilodonTests-Info.plist"; sourceTree = "<group>"; };
+		3F753C2417857D6200055C8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F753C2617857D6200055C8D /* SmilodonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmilodonTests.h; sourceTree = "<group>"; };
+		3F753C2717857D6200055C8D /* SmilodonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmilodonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F753BF017857D6100055C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F753BF717857D6100055C8D /* UIKit.framework in Frameworks */,
+				3F753BF917857D6100055C8D /* Foundation.framework in Frameworks */,
+				3F753BFB17857D6100055C8D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F753C1517857D6200055C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F753C1B17857D6200055C8D /* SenTestingKit.framework in Frameworks */,
+				3F753C1C17857D6200055C8D /* UIKit.framework in Frameworks */,
+				3F753C1D17857D6200055C8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F753BEA17857D6100055C8D = {
+			isa = PBXGroup;
+			children = (
+				3F753BFC17857D6100055C8D /* Smilodon */,
+				3F753C2017857D6200055C8D /* SmilodonTests */,
+				3F753BF517857D6100055C8D /* Frameworks */,
+				3F753BF417857D6100055C8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F753BF417857D6100055C8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F753BF317857D6100055C8D /* Smilodon.app */,
+				3F753C1917857D6200055C8D /* SmilodonTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F753BF517857D6100055C8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F753BF617857D6100055C8D /* UIKit.framework */,
+				3F753BF817857D6100055C8D /* Foundation.framework */,
+				3F753BFA17857D6100055C8D /* CoreGraphics.framework */,
+				3F753C1A17857D6200055C8D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F753BFC17857D6100055C8D /* Smilodon */ = {
+			isa = PBXGroup;
+			children = (
+				3F753C0517857D6100055C8D /* AppDelegate.h */,
+				3F753C0617857D6100055C8D /* AppDelegate.m */,
+				3F753C0E17857D6100055C8D /* ViewController.h */,
+				3F753C0F17857D6200055C8D /* ViewController.m */,
+				3F753C1117857D6200055C8D /* ViewController.xib */,
+				3F753BFD17857D6100055C8D /* Supporting Files */,
+			);
+			path = Smilodon;
+			sourceTree = "<group>";
+		};
+		3F753BFD17857D6100055C8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F753BFE17857D6100055C8D /* Smilodon-Info.plist */,
+				3F753BFF17857D6100055C8D /* InfoPlist.strings */,
+				3F753C0217857D6100055C8D /* main.m */,
+				3F753C0417857D6100055C8D /* Smilodon-Prefix.pch */,
+				3F753C0817857D6100055C8D /* Default.png */,
+				3F753C0A17857D6100055C8D /* Default@2x.png */,
+				3F753C0C17857D6100055C8D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F753C2017857D6200055C8D /* SmilodonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F753C2617857D6200055C8D /* SmilodonTests.h */,
+				3F753C2717857D6200055C8D /* SmilodonTests.m */,
+				3F753C2117857D6200055C8D /* Supporting Files */,
+			);
+			path = SmilodonTests;
+			sourceTree = "<group>";
+		};
+		3F753C2117857D6200055C8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F753C2217857D6200055C8D /* SmilodonTests-Info.plist */,
+				3F753C2317857D6200055C8D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F753BF217857D6100055C8D /* Smilodon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F753C2B17857D6200055C8D /* Build configuration list for PBXNativeTarget "Smilodon" */;
+			buildPhases = (
+				3F753BEF17857D6100055C8D /* Sources */,
+				3F753BF017857D6100055C8D /* Frameworks */,
+				3F753BF117857D6100055C8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smilodon;
+			productName = Smilodon;
+			productReference = 3F753BF317857D6100055C8D /* Smilodon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F753C1817857D6200055C8D /* SmilodonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F753C2E17857D6200055C8D /* Build configuration list for PBXNativeTarget "SmilodonTests" */;
+			buildPhases = (
+				3F753C1417857D6200055C8D /* Sources */,
+				3F753C1517857D6200055C8D /* Frameworks */,
+				3F753C1617857D6200055C8D /* Resources */,
+				3F753C1717857D6200055C8D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F753C1F17857D6200055C8D /* PBXTargetDependency */,
+			);
+			name = SmilodonTests;
+			productName = SmilodonTests;
+			productReference = 3F753C1917857D6200055C8D /* SmilodonTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F753BEB17857D6100055C8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = PiosaJiang;
+			};
+			buildConfigurationList = 3F753BEE17857D6100055C8D /* Build configuration list for PBXProject "Smilodon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F753BEA17857D6100055C8D;
+			productRefGroup = 3F753BF417857D6100055C8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F753BF217857D6100055C8D /* Smilodon */,
+				3F753C1817857D6200055C8D /* SmilodonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F753BF117857D6100055C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F753C0117857D6100055C8D /* InfoPlist.strings in Resources */,
+				3F753C0917857D6100055C8D /* Default.png in Resources */,
+				3F753C0B17857D6100055C8D /* Default@2x.png in Resources */,
+				3F753C0D17857D6100055C8D /* Default-568h@2x.png in Resources */,
+				3F753C1317857D6200055C8D /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F753C1617857D6200055C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F753C2517857D6200055C8D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F753C1717857D6200055C8D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F753BEF17857D6100055C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F753C0317857D6100055C8D /* main.m in Sources */,
+				3F753C0717857D6100055C8D /* AppDelegate.m in Sources */,
+				3F753C1017857D6200055C8D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F753C1417857D6200055C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F753C2817857D6200055C8D /* SmilodonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F753C1F17857D6200055C8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F753BF217857D6100055C8D /* Smilodon */;
+			targetProxy = 3F753C1E17857D6200055C8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F753BFF17857D6100055C8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F753C0017857D6100055C8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F753C1117857D6200055C8D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F753C1217857D6200055C8D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		3F753C2317857D6200055C8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F753C2417857D6200055C8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F753C2917857D6200055C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F753C2A17857D6200055C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F753C2C17857D6200055C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smilodon/Smilodon-Prefix.pch";
+				INFOPLIST_FILE = "Smilodon/Smilodon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F753C2D17857D6200055C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smilodon/Smilodon-Prefix.pch";
+				INFOPLIST_FILE = "Smilodon/Smilodon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3F753C2F17857D6200055C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smilodon.app/Smilodon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smilodon/Smilodon-Prefix.pch";
+				INFOPLIST_FILE = "SmilodonTests/SmilodonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3F753C3017857D6200055C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smilodon.app/Smilodon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smilodon/Smilodon-Prefix.pch";
+				INFOPLIST_FILE = "SmilodonTests/SmilodonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F753BEE17857D6100055C8D /* Build configuration list for PBXProject "Smilodon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F753C2917857D6200055C8D /* Debug */,
+				3F753C2A17857D6200055C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F753C2B17857D6200055C8D /* Build configuration list for PBXNativeTarget "Smilodon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F753C2C17857D6200055C8D /* Debug */,
+				3F753C2D17857D6200055C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F753C2E17857D6200055C8D /* Build configuration list for PBXNativeTarget "SmilodonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F753C2F17857D6200055C8D /* Debug */,
+				3F753C3017857D6200055C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F753BEB17857D6100055C8D /* Project object */;
+}
