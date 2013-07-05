@@ -8,8 +8,10 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+#import "PJCanvasView.h"
 
+@interface ViewController ()
+@property(strong,nonatomic) PJCanvasView * canvasView;
 @end
 
 @implementation ViewController
@@ -17,7 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    self.canvasView = [[PJCanvasView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+    [self.view addSubview:_canvasView];
 }
 
 - (void)didReceiveMemoryWarning

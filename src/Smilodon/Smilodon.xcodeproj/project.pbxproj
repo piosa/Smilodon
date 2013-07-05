@@ -23,6 +23,10 @@
 		3F753C1D17857D6200055C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F753BF817857D6100055C8D /* Foundation.framework */; };
 		3F753C2517857D6200055C8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F753C2317857D6200055C8D /* InfoPlist.strings */; };
 		3F753C2817857D6200055C8D /* SmilodonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F753C2717857D6200055C8D /* SmilodonTests.m */; };
+		3F753C35178583DD00055C8D /* PJCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F753C34178583DD00055C8D /* PJCanvasView.m */; };
+		3F753C3717858E8700055C8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F753C3617858E8700055C8D /* QuartzCore.framework */; };
+		3F753C3A17859DE700055C8D /* PJRenderTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F753C3917859DE700055C8D /* PJRenderTrack.m */; };
+		3F753C3D1785A7EC00055C8D /* PJRenderPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F753C3C1785A7EC00055C8D /* PJRenderPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,13 @@
 		3F753C2417857D6200055C8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F753C2617857D6200055C8D /* SmilodonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmilodonTests.h; sourceTree = "<group>"; };
 		3F753C2717857D6200055C8D /* SmilodonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmilodonTests.m; sourceTree = "<group>"; };
+		3F753C33178583DD00055C8D /* PJCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJCanvasView.h; sourceTree = "<group>"; };
+		3F753C34178583DD00055C8D /* PJCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJCanvasView.m; sourceTree = "<group>"; };
+		3F753C3617858E8700055C8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3F753C3817859DE700055C8D /* PJRenderTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJRenderTrack.h; sourceTree = "<group>"; };
+		3F753C3917859DE700055C8D /* PJRenderTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJRenderTrack.m; sourceTree = "<group>"; };
+		3F753C3B1785A7EC00055C8D /* PJRenderPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJRenderPoint.h; sourceTree = "<group>"; };
+		3F753C3C1785A7EC00055C8D /* PJRenderPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJRenderPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F753C3717858E8700055C8D /* QuartzCore.framework in Frameworks */,
 				3F753BF717857D6100055C8D /* UIKit.framework in Frameworks */,
 				3F753BF917857D6100055C8D /* Foundation.framework in Frameworks */,
 				3F753BFB17857D6100055C8D /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +118,7 @@
 		3F753BF517857D6100055C8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F753C3617858E8700055C8D /* QuartzCore.framework */,
 				3F753BF617857D6100055C8D /* UIKit.framework */,
 				3F753BF817857D6100055C8D /* Foundation.framework */,
 				3F753BFA17857D6100055C8D /* CoreGraphics.framework */,
@@ -117,6 +130,7 @@
 		3F753BFC17857D6100055C8D /* Smilodon */ = {
 			isa = PBXGroup;
 			children = (
+				3F753C32178582F100055C8D /* Root */,
 				3F753C0517857D6100055C8D /* AppDelegate.h */,
 				3F753C0617857D6100055C8D /* AppDelegate.m */,
 				3F753C0E17857D6100055C8D /* ViewController.h */,
@@ -158,6 +172,19 @@
 				3F753C2317857D6200055C8D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F753C32178582F100055C8D /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				3F753C33178583DD00055C8D /* PJCanvasView.h */,
+				3F753C34178583DD00055C8D /* PJCanvasView.m */,
+				3F753C3817859DE700055C8D /* PJRenderTrack.h */,
+				3F753C3917859DE700055C8D /* PJRenderTrack.m */,
+				3F753C3B1785A7EC00055C8D /* PJRenderPoint.h */,
+				3F753C3C1785A7EC00055C8D /* PJRenderPoint.m */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +300,9 @@
 				3F753C0317857D6100055C8D /* main.m in Sources */,
 				3F753C0717857D6100055C8D /* AppDelegate.m in Sources */,
 				3F753C1017857D6200055C8D /* ViewController.m in Sources */,
+				3F753C35178583DD00055C8D /* PJCanvasView.m in Sources */,
+				3F753C3A17859DE700055C8D /* PJRenderTrack.m in Sources */,
+				3F753C3D1785A7EC00055C8D /* PJRenderPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +483,7 @@
 				3F753C2D17857D6200055C8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F753C2E17857D6200055C8D /* Build configuration list for PBXNativeTarget "SmilodonTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +492,7 @@
 				3F753C3017857D6200055C8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
